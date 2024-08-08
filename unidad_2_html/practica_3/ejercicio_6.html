@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 6 </title>
+</head>
+<body>
+    <h1>Seleccione uno o varios correos electrónicos</h1>
+    <form action="Link" method="post" target="_blank">
+        <label for="emails">Correos Electrónicos:</label>
+        <select id="emails" name="emails[]" multiple size="5">
+            <option value="email1@gmail.com">email1@gmail.com</option>
+            <option value="email2@gmail.com">email2@gmail.com</option>
+            <option value="email3@gmail.com">email3@gmail.com</option>
+            <option value="email4@gmail.com">email4@gmail.com</option>
+            <option value="email5@gmail.com">email5@gmail.com</option>
+        </select>
+        <input type="submit" value="Enviar Selección">
+    </form>
+</body>
+</html>
