@@ -1,0 +1,182 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nombre {
+    text-align: center;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    padding: 14px 20px;
+    display: block;
+}
+
+.nav-link:hover {
+    background: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.titulo {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.biografia {
+    font-size: 1.2em;
+}
+
+.proyectos-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.proyecto-item {
+    margin-bottom: 20px;
+}
+
+.proyecto {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.proyecto-titulo {
+    margin-top: 0;
+}
+
+.proyecto-enlace {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+.proyecto-enlace:hover {
+    text-decoration: underline;
+}
+
+.tabla-cursos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-cursos th,
+.tabla-cursos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-cabecera {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.habilidades-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidad {
+    background: #eee;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-textarea {
+    resize: vertical;
+}
+
+.form-checkbox {
+    margin-right: 5px;
+}
+
+.form-checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.form-link {
+    color: #007bff;
+}
+
+.form-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}

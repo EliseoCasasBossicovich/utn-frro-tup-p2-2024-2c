@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="nombre">Eliseo Casas Bossicovich</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#cursos" class="nav-link">Cursos</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="sobre-mi" class="sobre-mi">
+      <h2 class="titulo">Sobre mí</h2>
+      <p class="biografia">Desarrollador Front-End Angular</p>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+      <h2 class="titulo">Proyectos</h2>
+      <ul class="proyectos-lista">
+        <li class="proyecto-item">
+          <div class="proyecto">
+            <h3 class="proyecto-titulo">E-commerce</h3>
+            <p class="proyecto-descripcion">
+              E-commerce con venta online para mercado familiar
+            </p>
+            <a href="#" class="proyecto-enlace">Enlace al Proyecto 1</a>
+          </div>
+        </li>
+        <li class="proyecto-item">
+          <div class="proyecto">
+            <h3 class="proyecto-titulo">Portfolio</h3>
+            <p class="proyecto-descripcion">
+              Portfolio para estudiante de ingeniería
+            </p>
+            <a href="#" class="proyecto-enlace">Enlace al Proyecto 2</a>
+          </div>
+        </li>
+        <li class="proyecto-item">
+          <div class="proyecto">
+            <h3 class="proyecto-titulo">Sitio de arte</h3>
+            <p class="proyecto-descripcion">
+              Sitio de 6 páginas para salón de arte
+            </p>
+            <a href="#" class="proyecto-enlace">Enlace al Proyecto 3</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="cursos" class="cursos">
+      <h2 class="titulo">Cursos</h2>
+      <table class="tabla-cursos">
+        <thead>
+          <tr>
+            <th class="tabla-cabecera">Curso</th>
+            <th class="tabla-cabecera">Institución</th>
+            <th class="tabla-cabecera">Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tabla-dato">Angular</td>
+            <td class="tabla-dato">Coder</td>
+            <td class="tabla-dato">2023</td>
+          </tr>
+          <tr>
+            <td class="tabla-dato">React.Js</td>
+            <td class="tabla-dato">Coder</td>
+            <td class="tabla-dato">2022</td>
+          </tr>
+          <tr>
+            <td class="tabla-dato">Desarrollo Web</td>
+            <td class="tabla-dato">Coder</td>
+            <td class="tabla-dato">2022</td>
+          </tr>
+          <tr>
+            <td class="tabla-dato">JavaScript</td>
+            <td class="tabla-dato">Coder</td>
+            <td class="tabla-dato">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+      <h2 class="titulo">Habilidades</h2>
+      <ul class="habilidades-lista">
+        <li class="habilidad">HTML5</li>
+        <li class="habilidad">CSS3</li>
+        <li class="habilidad">JavaScript</li>
+        <li class="habilidad">Angular</li>
+        <li class="habilidad">React.Js</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h2 class="titulo">Contacto</h2>
+      <form class="form-contacto" action="#" method="post">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          class="form-input"
+          placeholder="Escribe tu nombre"
+          maxlength="30"
+        />
+
+        <label for="email" class="form-label">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-input"
+          placeholder="correo@empresa.com"
+          required
+          maxlength="30"
+        />
+
+        <label for="mensaje" class="form-label">Escribe tu mensaje:</label>
+        <textarea
+          id="mensaje"
+          name="mensaje"
+          class="form-textarea"
+          maxlength="300"
+        ></textarea>
+
+        <input
+          type="checkbox"
+          id="rgpd"
+          name="rgpd"
+          class="form-checkbox"
+          required
+        />
+        <label for="rgpd" class="form-checkbox-label">
+          He leído y acepto el 
+          <a href="#" target="_blank" class="form-link"
+            >aviso legal y la política de privacidad</a
+          >.
+        </label>
+
+        <button type="submit" class="form-button">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>
